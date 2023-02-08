@@ -21,7 +21,7 @@ int main() {
         }
     }
     if(outofguesses){
-        cout<<"You Lose";
+        cout<<"You Lose!";
     }else{
         cout<<"You win!";
     }    
