@@ -5,8 +5,9 @@ using namespace std;
 
 int main() {
     int n;
-    int p;
+    
     cin>>n;
+    int p=n;
     int sum=0;
     
     while(n!=0){
@@ -17,8 +18,8 @@ int main() {
         n=n/10;
     }
     cout<<"The value of sum is"<<sum<<endl;
-    p==sum;
-    if(p== n){
+    
+    if(sum== p){
         cout<<"The number is an Armstrong number";
     }
     else{
